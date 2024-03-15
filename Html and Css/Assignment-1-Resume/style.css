@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    border: 1px solid black;
+}
+
+main{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.info {
+    background-color: #ff8a05;
+    color: #000000;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.info img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit:fill;
+}
+
+.info h1 {
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.info a {
+    color: #ebe6e6;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+.info p{
+    text-decoration: double;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 0.5rem; 
+}
+
+section li h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+section li p {
+    margin: 0;
+    color: gray;
+}
+h3{
+    color: rgb(5, 8, 7);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    border-bottom: 1px solid black;
+}

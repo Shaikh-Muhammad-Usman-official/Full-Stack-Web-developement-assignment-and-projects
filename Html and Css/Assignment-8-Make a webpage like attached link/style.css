@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after { box-sizing: inherit;}
+body{
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: whitesmoke;
+color: black;
+font-size: 14px;
+margin: 0;
+}
+
+
+ nav[class="top_nav"] >ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+nav[class="top_nav"] >ul>li>a{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.page_logo{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.page_logo p {
+    margin-top: 1px;
+    margin-bottom: 1rem;
+}
+.page_logo img{
+    width: 300px;
+}
+.header_bottom{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4%;
+}
+nav[class="bottom_nav"] >ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 80;
+  font-size: 12px;
+}
+nav[class="bottom_nav"] >ul>li>a{
+    color: black;
+    text-decoration: none; 
+    font-weight: 400;
+}
+.search_bar{
+    flex-basis: 16%;
+    margin-top: 0.5em;
+    border: 0;
+ 
+}
+.search_bar span{
+    font-weight: 700;
+    margin-top: 0.5px;
+
+}
+nav[class="bottom_nav"] >ul>li {
+    margin-left: 0.5rem;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+.main-header{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.article-heading{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-self: start;
+    align-self: center;
+    padding-right: 40%;
+    padding-left: 40px;
+   
+}
+.social_links{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-self: flex-end;
+    gap: 0.5rem;
+    padding-top: 0;
+    font-size: 27px;
+}
+.article_image img{
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+.article_image{
+   text-align: center;
+}
+
+.article_highlights ul{
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.article_details{
+    padding-top: 0cap;
+    padding: 6rem;
+    font-size: 20px;
+}
+.page_footer{
+    margin: 0;
+    text-align: left;
+}
+.sender-details input{
+    width: 36%;
+    border: 0;
+}
+.comments h2{
+    font-size: 40px;
+}
+
+.optional_details input{
+    width: 43%;
+    border: 0;
+}
+textarea{
+    width: 80%;
+  border: 0;
+}
+.comments{
+    margin-left: 6rem; ;
+}
+.cap{
+    color: rgb(226, 43, 43);
+}
+/* for smart phones */     
+@media screen and (max-width:450px) {
+    .top_nav{
+        display: none;
+    }
+    .page_logo img{
+        display: flex;
+        width: 40vh;
+        margin: 0;
+        padding-left: 80px;
+    }
+    .page_logo p{
+        text-align: center;
+        padding-left: 6px;
+    }
+    .bottom_nav{
+        padding:0;
+        display: block;
+        line-height: 25px;
+        padding-right: 25px;
+        background-color: rgba(160, 158, 158, 0.549);
+    
+    }
+    .bottom_nav ul>li{list-style-type: none;
+    font-size: 1rem;}
+    .bottom_nav ul >li>a :hover{
+        text-decoration: underline;
+        background-color: white;
+    }
+    .search_bar{
+        display: flex;
+        
+    }
+    .search_bar input {
+        text-align:  center;
+        width: 370px;
+        height: 25px;
+        border: 0;
+    }
+    a{
+        color:black;
+        text-align: center;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 10%;
+    }
+    hr{
+        font-weight: bolder;
+       } 
+       .article-heading p{
+        font-size: 16px;
+        line-height: 20px;
+       
+       }
+       .social_links{
+        font-size: 2rem;
+        padding-left: 80px;
+        gap: 20%;
+       }
+       .article_image img{
+        display: block;
+        width: 25rem;
+        margin: 0;
+        padding-right: 40px;
+    }
+    .article_highlights{
+        font-size: 18px;
+    }
+    .article_details  p ,h2{
+      font-size: 18px;
+      text-align: center;
+      padding-left: 0;
+    padding-right: 0;
+    }
+    .comments{
+        padding: 1rem;
+    
+    }
+    .comments input{
+        width: 100%;
+        border: 0;
+    }
+    .comments p, h2{
+        text-align: center;
+    }
+    .comments textarea{
+        text-align: center;
+        width: 100%;
+    }
+}

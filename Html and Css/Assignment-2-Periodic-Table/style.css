@@ -1,0 +1,100 @@
+body {
+    background-color: black;}
+   
+
+h1 {
+    background-color: gold;
+    text-align: center;
+}
+table{
+    margin-left: 20rem;
+    height: 4rem;
+    width: 200px;
+}
+
+td[colspan] {
+    border: 0%;
+    background-color: black;
+}
+
+td[class="head"] {
+    background-color: blue;
+    border: 1px solid white;
+    color: azure;
+    text-align: center;
+}
+
+td[class="alkali_metals"] {
+    background-color: red;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+
+td[class="alkaline_earth_metals"] {
+    background-color: orangered;
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[ class="transition_metals"] {
+    background-color: yellow;
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="basic_metals"] {
+    background-color: lawngreen;
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="semi_metals"] {
+    background-color: aqua;
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="non_metals"] {
+    background-color: rgb(0, 255, 115);
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="halogens"] {
+    background-color: rgb(150, 83, 216);
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="noble_gas"] {
+    background-color: rgb(86, 2, 155);
+    border: 1px solid white;
+    text-align: center;
+}
+
+td[class="lanthanides"] {
+    background-color: crimson;
+    border: 1px solid white;
+  text-align: center;
+}
+
+td[ class="actinides"] {
+    background-color: rgb(172, 8, 117);
+    border: 1px solid white;
+    text-align: center;
+}
+
+th {
+    color: rgb(255, 255, 255);
+
+}
+
+table[class="lt/act"] {
+    margin: 10px;
+}
+table[class="lt/act"]{
+    padding-top: 0.5em;
+    justify-content: center;
+    margin-left: 25rem;
+}

@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURVEY FORM</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="reviw-box-container">
+      <dvi class="step-row">
+        <div id="progress2"></div>
+        <div class="step-col"><small>Step 1:ACCOUNT INFO</small></div>
+        <div class="step-col"><small>Step 2:PERSONAL INFO</small></div>
+        <div class="step-col"><small>Step 3:YOUR REVIEW</small></div>
+       </dvi>
+      <div class="review-box">
+        <div class="review-box-logo">
+          <img src="./images/customer-review_5230367.png" alt="logo" />
+        </div>
+        <div class="review-box-header"></div>
+        <div class="review-box-form">
+          <form action="#" class="review-box-form">
+            <fieldset>
+              <legend>Your Review</legend>
+              <div class="form-item">
+                <section class="form-item-1">
+                  <span class="material-symbols-outlined">
+                    quick_reference
+                  </span>
+                  <label for="our-reference-to-you"
+                    >How did you hear about us?
+                  </label>
+                  <select
+                    name="our-reference-to-you"
+                    id="our-reference-to-you"
+                    required
+                  >
+                    <option value=""></option>
+                    <option value="facebook-page">Facebook page</option>
+                    <option value="youtube-channel">Youtube channel</option>
+                    <option value="Instagram-page">Instagram-page</option>
+                    <option value="Others">Others</option>
+                  </select>
+                </section>
+                <section class="form-item-2">
+                  <label for="visit-us-again">Would You Visit again?</label>
+                  <br />
+                  <input
+                    type="radio"
+                    name="option"
+                    id="visit-us-again option-1"
+                    required
+                    value="yes"
+                  />
+                  <label for="option-1">Yes</label>
+                  <input
+                    type="radio"
+                    name="option"
+                    id="visit-us-again option-2"
+                    required
+                    value="no"
+                  /><label for="option-2">No</label>
+                  <input
+                    type="radio"
+                    name="option"
+                    id="visit-us-again option-3"
+                    required
+                    value="may-be"
+                  /><label for="option-3">May Be</label>
+                </section>
+                <section class="form-item-3">
+                  <span class="material-symbols-outlined"> comment </span>
+                  <label for="comments">Comments</label>
+                  <br />
+                  <textarea
+                    name="comments"
+                    id="comments"
+                    cols="30"
+                    rows="10"
+                    placeholder="Enter your comments here"
+                    required
+                  ></textarea>
+                </section>
+                <section>
+                     <input type="checkbox" name="sign-me-up" id="sign-me-up"> 
+                     <label for="sign-me-up">Sign me up for Email updates</label>
+                </section>
+              </div>
+            </fieldset>
+            <div class="form-button">
+                <a href="./form2.html"><button type="button">BACK</button></a>
+               <button type="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

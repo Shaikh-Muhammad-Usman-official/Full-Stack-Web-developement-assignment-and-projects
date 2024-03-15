@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.semantic-tags-card,.unsemantic-tags-card{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.unsemantic-card-content,.semantic-card-content{
+    display: inline-flex;
+    }
+.unsemantic-card-header{
+    background-color: palevioletred;
+    display: block;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 6px;
+}
+.unsemantic-card-nav{
+    background-color: rgb(255, 174, 0);
+    display: block;
+    padding: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+    border-radius: 6px;
+}
+.unsemantic-card-aside{
+    background-color: palevioletred;
+    margin: 8px;
+    width: 30%;
+    margin: 2px;
+    border-radius:6px;
+}
+.unsemantic-card-main{
+    display: block;
+    background-color: palevioletred;
+    text-align: center; 
+    border-radius: 6px;
+    width: 70%;
+    margin: 2px;
+}
+.unsemantic-card-article{
+    display: block;
+    border: 2px solid  rgba(162, 0, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+
+.unsemantic-card-footer{
+    display: block;
+    background-color: palevioletred;
+    text-align: center;
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+.unsemantic-card-figure{
+    display: block;
+    border: 2px solid  rgba(162, 0, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+.unsemantic-card-paragraph{
+    display: block;
+    border: 2px solid  rgba(162, 0, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+.unsemantic-card-section{
+    display: block;
+    border: 2px solid  rgba(162, 0, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+.semantic-card-header{
+    display: block;
+    background: red;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 6px;
+}
+.semantic-card-nav{
+    display: block;
+    background: rgb(3, 121, 33);
+    padding: 5px;
+    margin: 5px 3px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.semantic-card-aside{
+    background-color: palevioletred;
+    margin: 8px;
+    width: 30%;
+    margin: 2px;
+    border-radius:6px;
+}
+.semantic-card-main{
+    display: block;
+    background-color: rgba(111, 201, 243, 0.993);
+    text-align: center; 
+    border-radius: 6px;
+    width: 70%;
+    margin: 2px;
+    
+}
+.semantic-card-article{
+    display: block;
+    background-color: rgba(0, 119, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+   padding: 5px;
+}
+.semantic-card-figure{
+    display: block;
+    background-color: rgba(255, 238, 0, 0.993);
+    border-radius: 6px;
+    padding: 10px;
+    margin:5px;
+}
+.semantic-card-paragraph{
+    display: block;
+    background-color: rgba(255, 238, 0, 0.993);
+    border-radius: 6px;
+    margin:5px;
+    padding: 10px;
+    margin: 5px;
+}
+.semantic-card-section{
+    display: block;
+    background-color: rgba(0, 119, 255, 0.993);
+    border-radius: 6px;
+    margin:5px;
+   padding: 5px;
+}
+.semantic-card-footer{
+    display: block;
+    background-color: rgba(162, 0, 255, 0.993);
+    text-align: center;
+    border-radius: 6px;
+    margin:5px;
+    padding: 5px;
+}
+#page-footer{
+    text-align: center;
+}

@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="form_info" >
+      <img
+        src="./images/Saylani-Welfare-International-trust-Logo-Vector.svg-.png"
+        alt="saylani_logo"
+        style="width: 40%;
+        margin-left: 30%;"
+      />
+      <h1 style="font-size: 3rem; text-align: center;">Saylani Mass Training & Job Creation Program</h1>
+      <h2 style="font-size: 2rem; text-align: center;">Registartion/Entry Form</h2>
+    </header>
+    <main>
+      <form action="#">
+        <div
+          class="batch-info"
+          style="display: flex; flex-wrap: wrap; justify-content: space-around"
+        >
+          <div class="001" style="width: 40%">
+            <label for="#course">Select Course</label>
+            <br />
+            <select
+              name="course"
+              id="#course"
+              required
+              style="border: none; border-bottom: 1px solid black; width: 100%"
+            >
+              <option value="graphic_designing">Graphic Designing</option>
+              <option value="web_and_app_development">
+                Web and App Development
+              </option>
+              <option value="python_development">Python Development</option>
+              <option value="generative_ai_and_chatbot">
+                Generative AI and Chatbot
+              </option>
+            </select>
+          </div>
+          <div class="002" style="width: 40%">
+            <label for="#batch">Select Batch</label>
+            <br />
+            <select
+              name="batch"
+              id="#batch"
+              required
+              style="border: none; border-bottom: 1px solid black; width: 100%"
+            >
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="name"
+          style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+        >
+          <label for="#name">Name</label>
+          <br />
+          <input
+            type="text"
+            id="#name"
+            placeholder="Your Name"
+            maxlength="18"
+            required
+            style="width: 100%; border: none; border-bottom: 1px solid black"
+          />
+          <br />
+          <span> Max Characters allowed:18 </span>
+        </div>
+        <div
+          clss="num_info"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-left: 66px;
+            padding-right: 66px;
+            padding-top: 30px;
+          "
+        >
+          <section>
+            <label for="#dob">Date Of Birth</label>
+            <br />
+            <input
+              type="date"
+              name="date_of_birth"
+              id="#dob"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+          </section>
+          <section style="width: 44%">
+            <label for="#age">Your Age</label>
+            <br />
+            <input
+              type="number"
+              name="age"
+              id="#age"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+          </section>
+        </div>
+        <div style="padding-left: 66px; padding-right: 66px; padding-top: 30px">
+          <label for="#gender">Gender</label>
+          <input type="radio" name="male" id="#gender" required />Male
+          <input type="radio" name="female" id="#gender" required />Female
+        </div>
+        <div style="padding-left: 66px; padding-right: 66px; padding-top: 30px">
+          <label for="#cnic/b-form_no"></label>
+          <input
+            type="number"
+            id="#cnic/b-form_no"
+            placeholder="CNIC/B-Form Number"
+            required
+            style="width: 100%; border: none; border-bottom: 1px solid black"
+            e.g 34545253424434
+          />
+        </div>
+        <div class="parental_info">
+          <section
+            style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+          >
+            <label for="#f_name"></label>
+            <input
+              type="text"
+              name="father_name"
+              id="#f_name"
+              placeholder="Father's name"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+
+          </section>
+          <br />
+          <section
+            style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+          >
+            <label for="#f_cnic_no"></label>
+            <input
+              type="number"
+              name="Fathers_cnic"
+              id="#f_cnic_no"
+              placeholder="Father's/Guardian's CNIC"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+            <span style="font-size: 10px;">e.g 34545253424434</span>
+          </section>
+        </div>
+        <div class="furthur_info">
+          <section
+            style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+          >
+            <label for="#address">Address</label>
+            <input
+              type="text"
+              name="address"
+              id="#address"
+              placeholder="Full and Permanent Address"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+          </section>
+          <section
+            style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+          >
+            <label for="#contact_no">Contact</label>
+            <input
+              type="number"
+              name="Contact"
+              id="#contact_no"
+              placeholder="Cell Number"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+            <span style="font-size: 10px;">e.g 03412629133</span>
+          </section>
+          <section
+            style="padding-left: 66px; padding-right: 66px; padding-top: 30px"
+          >
+            <label for="#email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="#email"
+              placeholder="Email"
+              required
+              style="width: 100%; border: none; border-bottom: 1px solid black"
+            />
+            <span style="font-size: 10px;">Provide a valid, accessible email that we will use to contact you.</span>
+          </section>
+          <br />
+          <section style=" padding-left: 66px; padding-right: 66px; padding-top: 30px;">
+          <label for="#last_qualification">Last Qualification</label>
+          <input
+            type="radio"
+            name="None"
+            id="#last_qualification"
+            required
+          />None
+          <input
+            type="radio"
+            name="Matric"
+            id="#last_qualification"
+            required
+          />Matric
+          <input
+            type="radio"
+            name="Intermediate"
+            id="#last_qualification"
+            required
+          />Intermediate
+          <input
+            type="radio"
+            name="Batchelor"
+            id="#last_qualification"
+            required
+          />Batchelor
+          <input
+            type="radio"
+            name="Master"
+            id="#last_qualification"
+            required
+          />Master
+          <input type="radio" name="Phd" id="#last_qualification" required />Phd
+        </section>
+        </div>
+         
+        <div style="padding-left: 66px; padding-right: 66px; padding-top: 30px;">
+          <label>Upload your image (face font, without glasses and with a single-colored background) *</label><br>
+          <input type="file" id="img" name="img"><br>
+          <span style="font-size: 10px;">Only png or jpg with size  < 1mb is allowed </span>
+      </div>
+          
+       <div style="padding-left: 66px; padding-right: 66px; padding-top: 30px;">
+        <label>Availability*</label><br>
+        <label>Drag and Drop class timings mentioned below as per your availablity and priority.</label>
+        <div style="display: flex; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4); padding-left: 10px;">
+            <h4>Priority # 1</h4>
+            <div>
+            <h4>Mon, Tues & Wed.</h4>
+            <h4>3pm to 5pm</h4>
+        </div>
+        </div>
+    </div>
+    
+          <hr />
+        </div>
+        <div  style="padding-left: 66px; padding-right: 66px; padding-top: 30px;">
+          <label for="#regulatons">Declaration Undertaking</label>
+          <ol>
+            <li>
+              I hereby, solemnly declare that te data and facts mentioned in are
+              true and correct to the best of my knowledge.Furthet I will abide
+              all my establish and future regulation and poicies of SWIT
+            </li>
+            <li>
+              I hereby accept the responsibilities of the good conduct and
+              gurantee that I will not be involved i any other
+              activity,politicalor ethic,but learning during my stay in the
+              program
+            </li>
+            <li>Defence will render my admission canceled at any time</li>
+            <li>
+              Upon completion of the course ,I will complete the required
+              project by SWIT
+            </li>
+          </ol>
+          <input type="checkbox" name="#regulatons" id="#regulatons" />
+           <label for="regulatons"> I agree with the above terms</label>
+          
+        </div>
+        <input type="submit" value="submit" style="background-color: blue; color: white; border-radius: 4px; margin-left: 4rem;" />
+      </form>
+    </main>
+  </body>
+</html>
